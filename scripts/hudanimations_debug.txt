@@ -1,0 +1,3107 @@
+//========================================//
+//----------hudanimations_tf.txt----------//
+//========================================//
+event LevelInit
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo =====LevelInit====="
+	RunEventChild MainMenuOverride LevelInitChild 0.0
+	RunEventChild MainMenuOverride LevelInitChild 0.0
+	RunEventChild MainMenuOverride LevelInitChild 0.0
+	RunEventChild MainMenuOverride LevelInitChild 0.0
+	RunEventChild MainMenuOverride LevelInitChild 0.0
+}event LevelInitChild{FireCommand 0.0 "engine echo =====LevelInitChild====="}
+event OpenWeaponSelectionMenu
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo =====OpenWeaponSelectionMenu====="
+	RunEventChild MainMenuOverride OpenWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride OpenWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride OpenWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride OpenWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride OpenWeaponSelectionMenuChild 0.0
+}event OpenWeaponSelectionMenuChild{FireCommand 0.0 "engine echo =====OpenWeaponSelectionMenuChild====="}
+event CloseWeaponSelectionMenu
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo =====CloseWeaponSelectionMenu====="
+	RunEventChild MainMenuOverride CloseWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride CloseWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride CloseWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride CloseWeaponSelectionMenuChild 0.0
+	RunEventChild MainMenuOverride CloseWeaponSelectionMenuChild 0.0
+}event CloseWeaponSelectionMenuChild{FireCommand 0.0 "engine echo =====CloseWeaponSelectionMenuChild====="}
+event MenuOpen
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo =====MenuOpen====="
+	RunEventChild MainMenuOverride MenuOpenChild 0.0
+	RunEventChild MainMenuOverride MenuOpenChild 0.0
+	RunEventChild MainMenuOverride MenuOpenChild 0.0
+	RunEventChild MainMenuOverride MenuOpenChild 0.0
+	RunEventChild MainMenuOverride MenuOpenChild 0.0
+}event MenuOpenChild{FireCommand 0.0 "engine echo =====MenuOpenChild====="}
+event MenuClose
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MenuPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TimerIncrement
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TimerDecrement
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ResourceIncrement
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ResourceDecrement
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ResourcePickup
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HintMessageShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HintMessageHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on spawn
+event KeyHintMessageShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event KeyHintMessageHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudHealthBonusPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudHealthBonusPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudHealthBonusPulseStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudHealthDyingPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudHealthDyingPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudHealthDyingPulseStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on local player or players in matchhud
+event HudLowAmmoPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudLowAmmoPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudLowAmmoPulseStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ControlPointIconShrink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ControlPointIconGrow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AccountMoneyRemoved
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AccountMoneyAdded
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AccountMoneyInvisible
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event FlagOutlineHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on spawn
+event FlagOutline
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudSpyDisguiseChanged
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudSpyDisguiseHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on spawn
+event HudSpyDisguiseFadeIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudSpyDisguiseFadeOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event OvertimeShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudSnapShotReminderIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReplayReminderIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReplayReminderIn2
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReplayTipIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReplayTipOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournamentSetupPanelOpen
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournamentSetupPanelClose
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMedicCharged
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMedicChargedLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMedicChargedStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event VideoCaptionFadeIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event VideoCaptionFadeOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ArenaVsPanelOnShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ArenaVsPanelSlideIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ArenaVsPanelSlideOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudCartAlarmPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudCartAlarmPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudCartAlarmPulseStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ActiveTimerBGPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ActiveTimerHighlight
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ActiveTimerDim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event OvertimeLabelPulseRed
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuddenDeathLabelPulseRed
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TimerFlash
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//runs on waiting for players and mp_timelimit timers
+event TeamsFullArrowAnimate
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TeamsFullArrowAnimateLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TeamsFullArrowAnimateEnd
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TrainingHudBounce
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TrainingPressSpacebarBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TrainingPressSpacebarBlinkLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TrainingPressSpacebarBlinkStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event IntroMovieContinueBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event IntroMovieContinueBlinkLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event IntroMovieContinueBlinkStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Used to insta-skip intro movies
+event HasMOTDBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HasMOTDBlinkLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HasMOTDBlinkStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HasNotificationsBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HasNotificationsBlinkLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HasNotificationsBlinkStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AddToCartBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event NotificationsPresentBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event NotificationsPresentBlinkLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event NotificationsPresentBlinkStop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event DamagedPlayer
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SpyWarningFlash
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SpyWarningFlashLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SpyWarningFlashEnd
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReadyPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReadyPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudReadyPulseEnd
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulseLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulseEnd
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulseLoss
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulseLoopLoss
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RespecEarnedPulseEndLoss
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RDPositiveScorePulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RDNegativeScorePulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestNotification_Present
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestNotification_Hide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ItemCard_ShowPinHint
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ItemCard_HidePinHint
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ItemCard_ShowCloseButton
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ItemCard_HideCloseButton
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_StaticPhoto_Reveal
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HideStamp
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_Intro
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_LetterStart
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_PlaceStamp
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_LetterSend
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event StartParticle0
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event StartParticle1
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event StartParticle2
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ShowFoundLabels
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_ItemRecieved
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_OKBlink_Repeatable
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_OKBlink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_ShowSendButton
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_ShowWaiting
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_HideWaiting
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_ShowFailure
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CollectionCrafting_WaitForItemsOnly
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Identify_Expand
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Identify_Collapse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Complete_Expand
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Complete_Collapse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Complete_Progress
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Options_Flash
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Expand
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Collapse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_TurningIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Reset
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Operation2_Expand
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Operation2_Collapse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Operation2_TurningIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Operation2_Reset
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_DisableFrontMouse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_EnableFrontMouse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Expand_Halloween
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Collapse_Halloween
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Reset_Halloween
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Front_Selected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Front_OtherSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Front_NoneSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Back_Selected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Back_OtherSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Back_NoneSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Highlight_On_Halloween
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestItem_Highlight_Off_Halloween
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CompetitiveGame_LowerChatWindow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CompetitiveGame_RestoreChatWindow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on spawn, but not on first spawn of mp_tournament 1 MATCH
+event HudTournament_MoveChatWindow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_MoveTimerDown
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_AnimateTeams_In
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_AnimateTeams_Out
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMatchStatus_ShowMatchStartDoors
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMatchStatus_ShowRankMatch
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMatchStatus_ShowCountdown
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_DoorsCleanup
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PlayDoorSlamParticles
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PlayDoorCloseAnim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PlayDoorOpenAnim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_ShowTimerCompetitive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_ShowTimerDefault
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_HideTimer
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_ShowRoundSign
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTournament_PlaySignAnim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TeamStatus_PlayerDead
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//When anyone in the matchhud bar dies
+event TeamStatus_PlayerAlive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//When teammate in the matchhud bar spawn
+event HudMatchStatus_ShowMatchWinDoors
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMatchStatus_ShowMatchWinDoors_NoOpen
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudMatchSummary_SlideInPanels
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_PlayList_Expand
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_PlayList_Collapse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_PlayList_Collapse_Immediate
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_SafeMode_Blink
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankModelClicked
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankLevelUpXPBar
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankLevelUpModel
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankLevelDownXPBar
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankLevelDownModel
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CompetitiveGame_ShowPvPRankPanel
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PvPRankPanelShowXPChange
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PyroVsHeavyWar_ShowChooseScene
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PyroVsHeavyWar_PyroWinnerScene
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CasualCategory_Checkbox_Hide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CasualCategory_Checkbox_Show
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CasualCategory_Selected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CasualCategory_NotSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthProgressBar_Selected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthProgressBar_NotSelected
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_UpdateButton_StartGlow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MMenu_UpdateButton_SubtleGlow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event XPSourceShow_Positive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event XPSourceShow_Negative
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SurveyShowSequence
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//USED-Prevents chat lockout
+event SurveySubmitSequence
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SurveyDelete
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SurveyHideSequence
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event MapVoted
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WinningNextMapVote
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event LosingNextMapVote
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Triggered when opening pause menu
+event QuestMap_Start
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_MapLoaded
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_LoadingLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticFadeOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticBar1Loop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticBar2Loop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticBarOverlayLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticBarOverlayBrighten
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_StaticBarOverlayDarken
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestNodeView_PinTipHighlight
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMapIntro_StageReveal
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMapIntro_ShowStage
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMapIntro_ClearStage
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestNodeView_QuestPurchased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestViewSubPanel_QuestPurchased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestViewSubPanel_SelectMouseOver
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestViewSubPanel_SelectMouseExit
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_ShowLegend
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_HideLegend
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_CreditNotificationAcknowledge
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_CreditHideAnim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_CreditNotificationShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestMap_CreditShowAnim
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ObjectiveCompletedByUser
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestReport_ContractComplete
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event QuestReport_ContractProgress
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ObjectiveCompletionFanfare
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ObjectiveCompletionFanfareEnd
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event RegionZoom
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event StartRegionZoomIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event StartRegionZoomOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event EndRegionZoomIn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event EndRegionZoomOut
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event DelayQuestMapClose
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+
+//========================================//
+//------------hudanimations.txt-----------//
+//========================================//
+event LevelInit
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponHighlight
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event OpenWeaponSelectionMenu
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CloseWeaponSelectionMenu
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event FadeOutWeaponSelectionMenu
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerMax
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerNotMax
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerDecreasedBelow25
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerIncreasedAbove25
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerNoItemsActive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerOneItemActive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerTwoItemsActive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitAuxPowerThreeItemsActive
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitFlashlightOn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitFlashlightOff
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageFront
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageLeft
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageRight
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageBehind
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageHighLeft
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageHighRight
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageHigh
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageDrown
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamagePoison
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageBurn
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudTakeDamageRadiation
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HudPlayerDeath
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthIncreasedAbove20
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthIncreasedBelow20
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitPowerIncreasedAbove20
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitPowerIncreasedBelow20
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitPowerZero
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event TestMovement
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthDamageTaken
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitDamageTaken
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthLow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HealthLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitArmorLow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SuitLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoIncreased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoDecreased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoEmpty
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event Ammo2Increased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event Ammo2Decreased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event Ammo2Empty
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoSecondaryIncreased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoSecondaryDecreased
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event AmmoSecondaryEmpty
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponChanged
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponUsesClips
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponDoesNotUseClips
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponUsesSecondaryAmmo
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event WeaponDoesNotUseSecondaryAmmo
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event CraneMagnetFlash
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HintMessageShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HintMessageHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}	//Plays on spawn
+event KeyHintMessageShow
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event KeyHintMessageHide
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SquadMemberAdded
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SquadMemberLeft
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SquadMemberDied
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SquadMembersFollowing
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event SquadMembersStationed
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PoisonDamageTaken
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PoisonDamageCured
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PoisonPulse
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PoisonLoop
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event ShowCommentary
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HideCommentary
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PulseOption1
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PulseOption2
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PulseOption3
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PulseOption4
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event PulseOption5
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
+event HideVoteBackgrounds
+{
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	FireCommand 0.0 "engine echo ===== ====="
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+	RunEventChild MainMenuOverride Child 0.0
+}event Child{FireCommand 0.0 "engine echo =====Child====="}
