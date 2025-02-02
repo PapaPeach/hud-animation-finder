@@ -3098,10 +3098,10 @@ event PulseOption5
 event HideVoteBackgrounds
 {
 	PlaySound 0.0 "weapons/det_pack_timer.wav"
-	FireCommand 0.0 "engine echo ===== ====="
-	RunEventChild MainMenuOverride Child 0.0
-	RunEventChild MainMenuOverride Child 0.0
-	RunEventChild MainMenuOverride Child 0.0
-	RunEventChild MainMenuOverride Child 0.0
-	RunEventChild MainMenuOverride Child 0.0
-}event Child{FireCommand 0.0 "engine echo =====Child====="}
+	FireCommand 0.0 "engine echo =====HideVoteBackgrounds====="
+	RunEventChild MainMenuOverride HideVoteBackgroundsChild 0.0
+	RunEventChild MainMenuOverride HideVoteBackgroundsChild 0.0
+	RunEventChild MainMenuOverride HideVoteBackgroundsChild 0.0
+	RunEventChild MainMenuOverride HideVoteBackgroundsChild 0.0
+	RunEventChild MainMenuOverride HideVoteBackgroundsChild 0.0
+}event HideVoteBackgroundsChild{FireCommand 0.0 "engine echo =====HideVoteBackgroundsChildChild====="}
